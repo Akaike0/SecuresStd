@@ -7,8 +7,11 @@
     <PackageVersion>1.1.1</PackageVersion>
     <Authors>Alekxander Alekseenko</Authors>
     <SynchReleaseVersion>false</SynchReleaseVersion>
-    <Copyright>Secures.dev - Alexander Alekseenko</Copyright>
-    <Title>Secures.dev Library</Title>
+    <Copyright>SECURES.DEV - Alexander Alekseenko</Copyright>
+    <Title>Secures .NET Library</Title>
+    <PackageLicenseUrl>https://github.com/Akaike0/SecuresStd/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/Akaike0/SecuresStd</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
