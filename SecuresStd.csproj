@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>1.1</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>1.1.1</PackageVersion>
+    <Authors>Alekxander Alekseenko</Authors>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <Copyright>Secures.dev - Alexander Alekseenko</Copyright>
+    <Title>Secures.dev Library</Title>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <DebugType></DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="GraphQL.Client" Version="3.0.1" />
+    <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="3.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="API\" />
+  </ItemGroup>
+</Project>
